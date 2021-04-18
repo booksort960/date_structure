@@ -2,7 +2,7 @@
 void initLinkedlist(list** head,list** last)//初始化链表
 {
 	*head = (list*)malloc(sizeof(list));
-	(*head)->n = 0;
+	*(head)->n = 0;
 	(*head)->next = NULL;
 	*last=*head;//空表状态
 }
